@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 25px;
+    line-height: 30px;
+    color: #333;
+}
+
+#fixed {
+    background: #eee;
+    position: fixed;
+    padding: 50px;
+    margin: 0;
+    top: 0px;
+    left: 490px;
+    text-align: center;
+}
+
+.wrap {
+    width: 550px;
+    margin: 0 auto 0 auto;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#relative {
+    background: #eee;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+#absolute {
+    background: #999;
+    width: 250px;
+    position: absolute;
+    padding: 20px;
+    right: -30px;
+    bottom: 0;
+    text-align: center;
+}
